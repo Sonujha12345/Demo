@@ -1,0 +1,20 @@
+table {
+      background-image:url("img/download.jpg");
+      border-collapse: collapse;
+      width: 100%;
+      color: blue; 
+      border-collapse: collapse; 
+      background-color: rgba(47, 49, 158, 0.878);
+      
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid red;
+      color: Orange; 
+      font-weight: bold;
+      height: 10px;
+      width: 30px;
+      font-size: 18px;
+    }
+    

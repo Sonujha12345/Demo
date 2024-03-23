@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/subscriptionform.css}">
+    </head>
+<body>
+    <h2>Payment Form</h2>
+    <form>
+        <label for="card_number">Card Number:</label>
+        <input type="text" id="card_number" name="card_number" placeholder="Enter your card number" >
+
+        <label for="cardholder_name">Cardholder Name:</label>
+        <input type="text" id="cardholder_name" name="cardholder_name" placeholder="Enter cardholder name" >
+
+        <label for="expiry_date">Expiry Date:</label>
+        <input type="text" id="expiry_date" name="expiry_date" placeholder="MM/YYYY" >
+
+        <label for="cvv">CVV:</label>
+        <input type="number" id="cvv" name="cvv" placeholder="Enter CVV" >
+
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" placeholder="Enter payment amount" >
+
+        <label for="currency">Currency:</label>
+        <select id="currency" name="currency" >
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="INR">INR</option>
+        </select>
+
+        <input type="submit" value="Submit Payment">
+    </form>
+</body>
+</html>

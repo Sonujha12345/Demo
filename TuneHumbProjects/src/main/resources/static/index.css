@@ -1,0 +1,30 @@
+body {
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            margin: 0; 
+            padding: 0; 
+            background-image: url("img/images (2).jpg");
+            
+            background-position: center; 
+            margin-top:10%;
+        }
+
+        a {
+            
+            font-family:'Courier New', Courier, monospace;
+            display: inline-block; 
+            margin: 10px 0; 
+            padding: 10px 20px; 
+            font-size: 18px; 
+            text-decoration: none; 
+            color: blue;  
+            background-color: pink; 
+            border-radius: 5px; 
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s; 
+        }
+
+        a:hover {
+            background-color: red; 
+            color: hsla(150, 75%, 46%, 0.718);
+        }

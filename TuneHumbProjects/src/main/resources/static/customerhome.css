@@ -1,0 +1,57 @@
+body{
+	background-color: black;
+}
+h2{
+	text-align: center; 
+    color: blue;
+    font-family:'Courier New', Courier, monospace;	
+}
+h4{
+	text-align: center; 
+    color: blue;
+    font-family:'Courier New', Courier, monospace;	
+}
+form {
+    margin-bottom: 10px;
+    text-align: center;
+     
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+
+input[type="submit"]:hover {
+    background-color: orange; 
+}
+
+        
+  table {
+      background-image:url("img/download.jpg");
+      border-collapse: collapse;
+      width: 100%;
+      color: blue; 
+      border-collapse: collapse; 
+      background-color: rgba(47, 49, 158, 0.878);
+      
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid red;
+      color: Orange; 
+      font-weight: bold;
+      height: 10px;
+      width: 30px;
+      font-size: 18px;
+    }
+          
+        
+        
